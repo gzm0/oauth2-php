@@ -31,6 +31,7 @@ interface IOAuth2GrantCode extends IOAuth2Storage {
 	 * @return
 	 * An associative array as below, and NULL if the code is invalid:
 	 * - client_id: Stored client identifier.
+     * - user_id: Stored user identifier.
 	 * - redirect_uri: Stored redirect URI.
 	 * - expires: Stored expiration in unix timestamp.
 	 * - scope: (optional) Stored scope values in space-separated string.
